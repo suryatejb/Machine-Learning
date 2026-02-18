@@ -306,7 +306,7 @@ param_grid %>%
   theme_bw()
 ```
 What do you think?  
-The sample statistics (the orange square) and the posterior mode are not similar. The posterior mode is shifted slightly toward the prior mean of 11, showing that the SME-informed prior is influencing the results despite the data.Based on the visualization, we are more confident in our estimate of $\sigma$ than we are of $\mu$. This is evident because the elliptical contours are elongated horizontally along the $\mu$ axis, which indicates a wider range of probable values and thus greater posterior uncertainty for the mean compared to the noise.
+The log-posterior contours are elongated horizontally along the $\mu$-axis, indicating that our posterior uncertainty for the process mean is greater than for the noise parameter.  This shape signifies that the model is more precise in estimating $\sigma$ than $\mu$ given the current data and prior. Furthermore, the visible gap between the posterior mode and the sample statistics (orange square) highlights how the prior has successfully influenced the estimate, pulling the 'best guess' away from a purely data-driven average toward our prior expectations.
 
 
 ## Problem 02
