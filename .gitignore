@@ -1,0 +1,5 @@
+
+# R session/history files
+.Rhistory
+.RData
+.Ruserdata
